@@ -1,6 +1,6 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "react/no-unescraped-entities": 1
+    "react/no-unescraped-entities": 0
   }
 }
