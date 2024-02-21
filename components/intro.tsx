@@ -69,7 +69,7 @@ export default function Intro() {
         passionate about learning
         <span className="italic"> new things</span>. My focus is{' '}
         <span className="underline font-bold">
-          JavaScript, TypeScript, React(Next.js)
+          JavaScript, TypeScript, and React(Next.js)
         </span>
         .
       </motion.h1>
