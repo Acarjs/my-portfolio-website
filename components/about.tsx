@@ -8,17 +8,6 @@ import useSectionInView from '@/lib/hooks';
 export default function About() {
   const { ref } = useSectionInView('About');
 
-  // const { ref, inView } = useInView({
-  //   threshold: 0.75,
-  // });
-  // const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
-
-  // useEffect(() => {
-  //   if (inView && Date.now() - timeOfLastClick > 1000) {
-  //     setActiveSection('About');
-  //   }
-  // }, [inView, setActiveSection, timeOfLastClick]);
-
   return (
     <motion.section
       ref={ref}
@@ -29,7 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
+      <p className="mb-3 text-start font-medium !leading-[2] sm:text-2xl">
         As a web developer, I started working as{' '}
         <span className="font-medium">Frontend Developer</span> on a web
         development project of a big pharma brand, using web development

@@ -90,7 +90,7 @@ export const projectsData = [
   {
     title: 'Portfolio Website',
     description:
-      'My portfolio website serves as a digital showcase of my professional background. It provides visitors with an insight into my skills, experience, and projects as a web developer.',
+      'The website we are currently on is my portfolio website that serves as a digital showcase of my professional background. It provides visitors with an insight into my skills, experience, and projects as a web developer.',
     tags: [
       'Next.js',
       'React',
@@ -101,8 +101,8 @@ export const projectsData = [
       'Resend',
     ],
     imageUrl: portfolioImg,
-    link: '/',
-    codeLink: '/',
+    link: 'https://anil-acar-online.vercel.app/',
+    codeLink: 'https://github.com/Acarjs/my-portfolio-website',
   },
   {
     title: 'Metadata Tagging Creation Automation',
